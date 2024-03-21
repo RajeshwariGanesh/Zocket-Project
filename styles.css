@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#item{
+  display: flex;
+}
+
+.container {
+  display:flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+}
+
+.editItem{
+  display:flex;
+  flex:1;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  position: relative;
+  width: 330px;
+  height: 250px;
+  border-top: 20px solid #3ec7c7;
+  border-right :20px solid #3ec7c7;
+  border-bottom:120px solid #3ec7c7;
+  border-left: 70px solid #3ec7c7;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+}
+.text-container {
+  flex:1;
+  flex-direction: row;
+  position: absolute;
+  bottom: -120px; /* Adjust vertical position */
+  left:-40px;
+  text-align: center;
+}
+
+#borderColorPicker {
+  margin-top: 10px;
+}
+
+
+#box1,h3 {
+  text-align: center;
+}
+
+#box2 {
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+  text-align: right;
+  margin-right: 10px; /* Add some space between label and input */
+}
+
+input[type="text"] {
+  width: 200px; /* Adjust width as needed */
+}
+#colorDisplay {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+.colorCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+/* Adjust circle border to match selected color */
+.colorCircle:nth-child(1) {
+  border: 2px solid black;
+}
+
+.colorCircle:nth-child(2) {
+  border: 2px solid black;
+}
+
+.colorCircle:nth-child(3) {
+  border: 2px solid black;
+}
+
+.colorCircle:nth-child(4) {
+  border: 2px solid black;
+}
+
+.colorCircle:nth-child(5) {
+  border: 2px solid black;
+}
+
+#borderColorPicker {
+  width: 30px; 
+  height: 30px;
+  border: none;
+  border-radius: 50%; /* Make it a circle */
+  cursor: pointer;
+  margin-left: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Styling for the hover effect */
+.borderColorPicker:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 100%; ;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select File</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="item">
+  <h3>Canva editor Website</h3>
+  <div class="editItem">
+    <div class="input-container">
+      <input type="file" id="fileInput" accept="image/*">
+    </div>
+    <div>
+      <label for="Ad content">Ad content</label>
+      <input type="textbox" id="box1" name="Ad Content">
+    </div>
+    <div>
+      <label for="CTA">CTA</label>
+      <input type="textbox" id="box2" name="CTA">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="image-container" id="imageContainer">
+      <div id="textContainer" class="text-container">
+      </div>
+    </div>
+  </div>
+  <div id="colorDisplay"></div> 
+  <input type="color" id="borderColorPicker" value="#000000">
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
+
